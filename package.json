@@ -1,21 +1,19 @@
 {
   "name": "eslint-config-janiskra",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "My custom eslint rules",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Janis Krasemann <krasemann.janis@gmail.com> (github.com/janiskra)",
+  "author": "Janis Krasemann <krasemann.janis@gmail.com> (http://www.github.com/janiskra)",
   "license": "MIT",
   "dependencies": {
   },
   "devDependencies": {
-    "eslint": "^3.1.1",
-    "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-import": "^1.12.0",
-    "eslint-plugin-jsx-a11y": "^2.0.1",
-    "eslint-plugin-no-inferred-method-name": "^1.0.2",
-    "eslint-plugin-react": "^5.2.2"
+    "eslint": "^3.3.1",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.13.0",
+    "eslint-plugin-no-inferred-method-name": "^1.0.2"
   }
 }
