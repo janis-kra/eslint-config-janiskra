@@ -8,11 +8,12 @@
   },
   "author": "Janis Krasemann <krasemann.janis@gmail.com> (http://www.github.com/janiskra)",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "babel-eslint": "^6.1.2",
     "eslint": "^3.3.1",
     "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-async-await": "0.0.0",
     "eslint-plugin-import": "^1.13.0",
     "eslint-plugin-no-inferred-method-name": "^1.0.2"
   }
