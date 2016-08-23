@@ -2,9 +2,24 @@
 
 My custom eslint rules, extending the [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb).
 
-These warnings regarding missing peer dependencies are fine, as I only use `airbnb-base`:
+## Usage
 
+There are two versions, `base` and `react`. For now, the main difference is that the former extends `airbnb/base` while the latter extends `airbnb` (i.e. it uses all the react stuff that you do not need for, say, a node.js project).
+
+### base
+
+.eslintrc:
+``` js
+{
+    "extends": "eslint-config-janiskra/base"
+}
 ```
-UNMET PEER DEPENDENCY eslint-plugin-jsx-a11y@2.0.1
-UNMET PEER DEPENDENCY eslint-plugin-react@5.2.2
+
+### react
+
+.eslintrc:
+``` js
+{
+    "extends": "eslint-config-janiskra/react"
+}
 ```
