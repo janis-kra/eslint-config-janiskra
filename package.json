@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-janiskra",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "My custom eslint rules",
   "main": "index.js",
   "repository": "janis-kra/eslint-config-janiskra",
