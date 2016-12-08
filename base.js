@@ -1,3 +1,3 @@
 module.exports = {
-    "extends": ["airbnb/base", "eslint-config-janiskra/defaults"]
+  extends: ['airbnb/base', 'eslint-config-janiskra/defaults']
 };
