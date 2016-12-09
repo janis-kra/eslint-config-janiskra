@@ -18,6 +18,7 @@ module.exports = {
     'async-await/space-after-async': ['error', 'always'],
     'async-await/space-after-await': ['error', 'always'],
     'comma-dangle': ['error', 'never'],
+    'no-else-return': 0,
     'object-curly-spacing': ['error', 'always'],
     'object-shorthand': ['error', 'never'],
     'space-before-function-paren': ['error', 'always']
