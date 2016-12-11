@@ -1,3 +1,7 @@
 module.exports = {
-  extends: ['airbnb', 'eslint-config-janiskra/defaults']
+  extends: [
+    'airbnb',
+    'eslint-config-janiskra/defaults',
+    'plugin:react/recommended'
+  ]
 };

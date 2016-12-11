@@ -11,11 +11,14 @@
   "license": "MIT",
   "dependencies": {
     "babel-eslint": "^7.1.1",
-    "eslint": "^3.11.1",
+    "eslint": "^3.12.0",
     "eslint-config-airbnb": "^13.0.0",
+    "eslint-config-airbnb-base": "^10.0.1",
     "eslint-plugin-async-await": "0.0.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-no-inferred-method-name": "^1.0.2"
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-no-inferred-method-name": "^1.0.2",
+    "eslint-plugin-react": "^6.8.0"
   },
   "devDependencies": {
     "eslint-config-janiskra": "^1.4.0"
