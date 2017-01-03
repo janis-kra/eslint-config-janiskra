@@ -19,7 +19,7 @@ I use the `async-await` and `no-inferred-method-name` plugins for enforcing spac
 
 ## Usage
 
-There are two versions, `base` and `react`. For now, the main difference is that the former extends `airbnb/base` while the latter extends `airbnb` (i.e. it uses all the react stuff that you do not need for, say, a node.js project).
+There are three versions, `base`, `node` and `react`. For now, the main difference is that the base and nodejs configs extend `airbnb/base` while the react config extends `airbnb` (i.e. it uses all the react stuff that you do not need for, say, a nodejs project).
 
 ### base
 
@@ -36,5 +36,14 @@ There are two versions, `base` and `react`. For now, the main difference is that
 ``` js
 {
     "extends": "eslint-config-janiskra/react"
+}
+```
+
+### node
+
+.eslintrc:
+``` js
+{
+    "extends": "eslint-config-janiskra/node"
 }
 ```
